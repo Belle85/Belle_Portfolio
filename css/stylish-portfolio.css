@@ -44,6 +44,10 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+#m-1{
+  color:white;
+}
+
 /* Map */
 .map {
   height: 30rem;
@@ -67,13 +71,13 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: white;
+  color:#d9d9d9;
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {
-  color: white;
+  color:#d9d9d9;
 }
 
 .scroll-to-top:hover {
@@ -92,7 +96,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/passion.jpg");
+  background: linear-gradient(90deg, blue, 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/passion.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,6 +106,7 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -310,13 +315,13 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #61dcd2;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #61dcd2;
   text-decoration: none;
 }
 
@@ -329,14 +334,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important;
+  background-color: #61dcd2 !important;
+  border-color: #61dcd2 !important;
+  color: #d9d9d9 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #61dcd2 !important;
+  border-color: #61dcd2 !important;
 }
 
 .btn-secondary {
@@ -360,11 +365,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #61dcd2 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #61dcd2 !important;
 }
 
 .text-secondary {
